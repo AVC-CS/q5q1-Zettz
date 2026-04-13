@@ -14,7 +14,8 @@ int main()
         for (int j = 1; j <= i; j++)
         {
             // TODO: print the letter for this column
-            cout << char('A' + j - 1) << " ";
+            if (j != 1) cout << " ";
+            cout << char('A' + j - 1) ;
         }
         cout << endl;
     }
