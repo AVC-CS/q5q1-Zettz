@@ -5,7 +5,7 @@ int main()
 {
     int n;
     // TODO: ask user for input
-    cout << "Input a number: ";
+    // cout << "Input a number: ";
     cin >> n;
 
     // TODO: outer loop for each row
